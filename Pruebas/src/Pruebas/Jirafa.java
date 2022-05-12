@@ -1,21 +1,21 @@
-
-
 package Pruebas;
 
-public class Tigre extends Animal{
-	private String Color;
+public class Jirafa extends Animal {
+	
+	private String Color ;
 	private int Edad;
+	
 
 	
-	
-	public Tigre(String nombre, int nExtremidades, String Habitat, String Alimentacion, String especie, int edad, String Color) {
-		super(nombre, nExtremidades, Habitat, Alimentacion,especie);
+	public Jirafa(String nombre, int nExtremidades, String habitat, String alimentacion, String especie, String color,
+			int edad) {
+		super(nombre, nExtremidades, habitat, alimentacion, especie);
+		this.Color = color;
 		this.Edad = edad;
-		this.Color = Color;
+
 	}
-	
-	
-	
+
+
 
 	@Override
 	public String toString() {
@@ -33,7 +33,5 @@ public class Tigre extends Animal{
 				"Color: " + Color + "\n" +
 				"Edad: " + Edad + "\n";
 	}
-	
-	
 	
 }
