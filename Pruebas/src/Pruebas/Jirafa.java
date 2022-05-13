@@ -14,8 +14,7 @@ public class Jirafa extends Animal {
 		this.Edad = edad;
 
 	}
-
-
+	 
 
 	@Override
 	public String toString() {

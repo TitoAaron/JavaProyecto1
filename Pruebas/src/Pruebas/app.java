@@ -11,9 +11,9 @@ public class app {
 		
 		Animal tigrecito = new Tigre("Pepe",5,"Sabana", "Carnivoro", "Mamifero",11,"Albino");
 		Animal jirafita = new Jirafa("Juan",5,"Sabana","Herbivoro","Mamifero","Naranja con manchas",7);
+		
 		Animales.add(jirafita);
 		Animales.add(tigrecito);
-		
 		
 		for(Animal x:Animales) {
 			System.out.println(x);
@@ -26,8 +26,6 @@ public class app {
 		//Aqui vuelven a comer
 		jirafita.Come();
 		tigrecito.Come();
-		
-		
 	}
 
 }
